@@ -53,19 +53,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBz-d0-QAi">
-                                <rect key="frame" x="54" y="145" width="10" height="21"/>
+                                <rect key="frame" x="54" y="145" width="38" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.97254908084869385" green="0.36862745881080627" blue="0.12941177189350128" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo3-5k-bPI">
-                                <rect key="frame" x="135" y="145" width="10" height="21"/>
+                                <rect key="frame" x="135" y="145" width="29" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96078437566757202" green="0.30588236451148987" blue="0.12549020349979401" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atz-Hl-w60">
-                                <rect key="frame" x="222" y="145" width="10" height="21"/>
+                                <rect key="frame" x="222" y="145" width="37" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96862751245498657" green="0.30588236451148987" blue="0.12549020349979401" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
@@ -80,11 +80,9 @@
                     <connections>
                         <outlet property="oneButton" destination="C3v-vw-thB" id="6Uy-gF-GPh"/>
                         <outlet property="oneLabel" destination="xBz-d0-QAi" id="j5M-BB-l2H"/>
-                        <outlet property="resetActionButton" destination="rvM-SI-h4G" id="mkP-5i-ux5"/>
                         <outlet property="resetAllButton" destination="rvM-SI-h4G" id="lik-74-ZSd"/>
                         <outlet property="threeButton" destination="BP5-ox-Txx" id="cPT-VO-9NL"/>
                         <outlet property="threeLabel" destination="atz-Hl-w60" id="iSH-dt-Gn4"/>
-                        <outlet property="twoActionButton" destination="aQq-rx-aEh" id="o8U-Wu-Bel"/>
                         <outlet property="twoButton" destination="aQq-rx-aEh" id="w6v-Vi-TYM"/>
                         <outlet property="twoLabel" destination="bo3-5k-bPI" id="nOz-Ug-RKH"/>
                     </connections>
