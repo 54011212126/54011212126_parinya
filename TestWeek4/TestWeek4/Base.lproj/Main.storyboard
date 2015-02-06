@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TestWeek4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3v-vw-thB">
+                                <rect key="frame" x="16" y="15" width="87" height="92"/>
+                                <state key="normal" title="One" image="1.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="oneActionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QkM-nJ-pOR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQq-rx-aEh">
+                                <rect key="frame" x="109" y="15" width="62" height="92"/>
+                                <state key="normal" title="Two" image="2.jpeg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twoActionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a7D-f0-BsG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BP5-ox-Txx">
+                                <rect key="frame" x="179" y="28" width="96" height="79"/>
+                                <state key="normal" title="Three" image="3.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="threeActionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Agt-6G-Wag"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvM-SI-h4G">
+                                <rect key="frame" x="70" y="157" width="141" height="139"/>
+                                <state key="normal" title="Reset All" image="reset.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetActionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UNn-UB-qTY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBz-d0-QAi">
+                                <rect key="frame" x="54" y="145" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97254908084869385" green="0.36862745881080627" blue="0.12941177189350128" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo3-5k-bPI">
+                                <rect key="frame" x="135" y="145" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.96078437566757202" green="0.30588236451148987" blue="0.12549020349979401" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atz-Hl-w60">
+                                <rect key="frame" x="222" y="145" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.96862751245498657" green="0.30588236451148987" blue="0.12549020349979401" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" highlightedImage="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1yx-87-Jc4">
+                                <rect key="frame" x="39" y="295" width="203" height="147"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="oneButton" destination="C3v-vw-thB" id="6Uy-gF-GPh"/>
+                        <outlet property="oneLabel" destination="xBz-d0-QAi" id="j5M-BB-l2H"/>
+                        <outlet property="resetActionButton" destination="rvM-SI-h4G" id="mkP-5i-ux5"/>
+                        <outlet property="resetAllButton" destination="rvM-SI-h4G" id="lik-74-ZSd"/>
+                        <outlet property="threeButton" destination="BP5-ox-Txx" id="cPT-VO-9NL"/>
+                        <outlet property="threeLabel" destination="atz-Hl-w60" id="iSH-dt-Gn4"/>
+                        <outlet property="twoActionButton" destination="aQq-rx-aEh" id="o8U-Wu-Bel"/>
+                        <outlet property="twoButton" destination="aQq-rx-aEh" id="w6v-Vi-TYM"/>
+                        <outlet property="twoLabel" destination="bo3-5k-bPI" id="nOz-Ug-RKH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="KJh-gd-QMU">
+                    <connections>
+                        <action selector="viewtapped:" destination="vXZ-lx-hvc" id="Zrb-bJ-hlF"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="311" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="300" height="270"/>
+        <image name="2.jpeg" width="117" height="176"/>
+        <image name="3.png" width="291" height="436"/>
+        <image name="images.jpeg" width="90" height="90"/>
+        <image name="reset.png" width="614" height="460"/>
+    </resources>
+</document>
