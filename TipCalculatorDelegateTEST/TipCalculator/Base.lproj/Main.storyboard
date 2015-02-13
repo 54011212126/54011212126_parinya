@@ -35,13 +35,6 @@
                                     <action selector="taxPercentageChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="idn-11-8Oe"/>
                                 </connections>
                             </slider>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-DX-rpM">
-                                <rect key="frame" x="1" y="183" width="323" height="254"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDI-sL-7pP">
                                 <rect key="frame" x="103" y="157" width="65" height="30"/>
                                 <state key="normal" title="Calculate">
@@ -67,6 +60,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DoN-cW-8fc">
+                                <rect key="frame" x="4" y="184" width="320" height="198"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="dne-3t-W1M"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="7KN-pe-1vg"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.20575154666121043" green="0.78011007183319248" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <attributedString key="userComments">
@@ -79,7 +80,7 @@
                         </attributedString>
                     </view>
                     <connections>
-                        <outlet property="resultsTextView" destination="yK1-DX-rpM" id="cAO-Ky-jgX"/>
+                        <outlet property="tabelView" destination="DoN-cW-8fc" id="xmU-fz-S1C"/>
                         <outlet property="taxPctLabel" destination="sp5-Xg-Qwe" id="eKD-P8-Ytb"/>
                         <outlet property="taxPctSlider" destination="AKN-ES-Z77" id="ZqT-nn-0FW"/>
                         <outlet property="totalTextFile" destination="rJe-H4-R1T" id="gmE-yq-iTe"/>
