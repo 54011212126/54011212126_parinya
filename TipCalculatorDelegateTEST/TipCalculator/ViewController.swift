@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+class ViewController: UIViewController, UITableViewDelegate  {
     let tipCal = tipCaculatorModel(total: 33.25, taxPct: 0.06)
     var possibleTips = Dictionary<Int, (tipAmt: Double, total:Double)>()
     var sortedKeys:[Int] = []
@@ -61,15 +61,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         taxPctLabel.text = "tax Percentage (\(Int(taxPctSlider.value))%)"
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return sortedKeys.count
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
         return 1
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView!, didDeselectRowAtIndexPath indexPath: NSIndexPath!) {
+        
+    }
+    
+    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         var cell = UITableViewCell(style: UITableViewCellStyle.Value2, reuseIdentifier: nil)
         
         let tipPct = sortedKeys[indexPath.row]
