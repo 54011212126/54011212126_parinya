@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76235907-BEFF-4C6E-A588-85C905391A4E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>customTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED3A2A4FC6D62372428B86F4E46CCFB74B35AC9B</key>
+		<string>https://github.com/54011212126/54011212126_parinya.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>customTableView/customTableView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED3A2A4FC6D62372428B86F4E46CCFB74B35AC9B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/54011212126/54011212126_parinya.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED3A2A4FC6D62372428B86F4E46CCFB74B35AC9B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED3A2A4FC6D62372428B86F4E46CCFB74B35AC9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>54011212126_parinya</string>
+		</dict>
+	</array>
+</dict>
+</plist>
