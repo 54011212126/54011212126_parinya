@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>presentMSU.xcscheme</key>
+		<key>CreateSingleViewProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FDF8AD6E1AA9A6E90013BE99</key>
+		<key>FD9251171AA994F900D8976D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDF8AD831AA9A6E90013BE99</key>
+		<key>FD92512C1AA994F900D8976D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
