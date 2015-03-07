@@ -101,7 +101,7 @@
         <image name="1.jpg" width="300" height="270"/>
         <image name="2.jpeg" width="117" height="176"/>
         <image name="3.png" width="291" height="436"/>
-        <image name="images.jpeg" width="90" height="90"/>
+        <image name="images.jpeg" width="333" height="151"/>
         <image name="reset.png" width="614" height="460"/>
     </resources>
 </document>
