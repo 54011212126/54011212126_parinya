@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD955AB61AC54CBC003B6DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD955AB51AC54CBC003B6DBC /* AppDelegate.swift */; };
+		FD955AB81AC54CBC003B6DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD955AB71AC54CBC003B6DBC /* ViewController.swift */; };
+		FD955ABB1AC54CBC003B6DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD955AB91AC54CBC003B6DBC /* Main.storyboard */; };
+		FD955ABD1AC54CBC003B6DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD955ABC1AC54CBC003B6DBC /* Images.xcassets */; };
+		FD955AC01AC54CBC003B6DBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD955ABE1AC54CBC003B6DBC /* LaunchScreen.xib */; };
+		FD955ACC1AC54CBC003B6DBC /* labfishAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD955ACB1AC54CBC003B6DBC /* labfishAnimationTests.swift */; };
+		FD955ADA1AC56033003B6DBC /* fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD955AD91AC56033003B6DBC /* fish.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD955AC61AC54CBC003B6DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD955AA81AC54CBC003B6DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD955AAF1AC54CBC003B6DBC;
+			remoteInfo = labfishAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD955AB01AC54CBC003B6DBC /* labfishAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labfishAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD955AB41AC54CBC003B6DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD955AB51AC54CBC003B6DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD955AB71AC54CBC003B6DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD955ABA1AC54CBC003B6DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD955ABC1AC54CBC003B6DBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD955ABF1AC54CBC003B6DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD955AC51AC54CBC003B6DBC /* labfishAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labfishAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD955ACA1AC54CBC003B6DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD955ACB1AC54CBC003B6DBC /* labfishAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labfishAnimationTests.swift; sourceTree = "<group>"; };
+		FD955AD91AC56033003B6DBC /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD955AAD1AC54CBC003B6DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD955AC21AC54CBC003B6DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD955AA71AC54CBC003B6DBC = {
+			isa = PBXGroup;
+			children = (
+				FD955AB21AC54CBC003B6DBC /* labfishAnimation */,
+				FD955AC81AC54CBC003B6DBC /* labfishAnimationTests */,
+				FD955AB11AC54CBC003B6DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD955AB11AC54CBC003B6DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD955AB01AC54CBC003B6DBC /* labfishAnimation.app */,
+				FD955AC51AC54CBC003B6DBC /* labfishAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD955AB21AC54CBC003B6DBC /* labfishAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FD955AB51AC54CBC003B6DBC /* AppDelegate.swift */,
+				FD955AB71AC54CBC003B6DBC /* ViewController.swift */,
+				FD955AB91AC54CBC003B6DBC /* Main.storyboard */,
+				FD955ABC1AC54CBC003B6DBC /* Images.xcassets */,
+				FD955ABE1AC54CBC003B6DBC /* LaunchScreen.xib */,
+				FD955AB31AC54CBC003B6DBC /* Supporting Files */,
+			);
+			path = labfishAnimation;
+			sourceTree = "<group>";
+		};
+		FD955AB31AC54CBC003B6DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD955AD91AC56033003B6DBC /* fish.jpg */,
+				FD955AB41AC54CBC003B6DBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD955AC81AC54CBC003B6DBC /* labfishAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD955ACB1AC54CBC003B6DBC /* labfishAnimationTests.swift */,
+				FD955AC91AC54CBC003B6DBC /* Supporting Files */,
+			);
+			path = labfishAnimationTests;
+			sourceTree = "<group>";
+		};
+		FD955AC91AC54CBC003B6DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD955ACA1AC54CBC003B6DBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD955AAF1AC54CBC003B6DBC /* labfishAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD955ACF1AC54CBC003B6DBC /* Build configuration list for PBXNativeTarget "labfishAnimation" */;
+			buildPhases = (
+				FD955AAC1AC54CBC003B6DBC /* Sources */,
+				FD955AAD1AC54CBC003B6DBC /* Frameworks */,
+				FD955AAE1AC54CBC003B6DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = labfishAnimation;
+			productName = labfishAnimation;
+			productReference = FD955AB01AC54CBC003B6DBC /* labfishAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD955AC41AC54CBC003B6DBC /* labfishAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD955AD21AC54CBC003B6DBC /* Build configuration list for PBXNativeTarget "labfishAnimationTests" */;
+			buildPhases = (
+				FD955AC11AC54CBC003B6DBC /* Sources */,
+				FD955AC21AC54CBC003B6DBC /* Frameworks */,
+				FD955AC31AC54CBC003B6DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD955AC71AC54CBC003B6DBC /* PBXTargetDependency */,
+			);
+			name = labfishAnimationTests;
+			productName = labfishAnimationTests;
+			productReference = FD955AC51AC54CBC003B6DBC /* labfishAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD955AA81AC54CBC003B6DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD955AAF1AC54CBC003B6DBC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD955AC41AC54CBC003B6DBC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD955AAF1AC54CBC003B6DBC;
+					};
+				};
+			};
+			buildConfigurationList = FD955AAB1AC54CBC003B6DBC /* Build configuration list for PBXProject "labfishAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD955AA71AC54CBC003B6DBC;
+			productRefGroup = FD955AB11AC54CBC003B6DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD955AAF1AC54CBC003B6DBC /* labfishAnimation */,
+				FD955AC41AC54CBC003B6DBC /* labfishAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD955AAE1AC54CBC003B6DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD955ABB1AC54CBC003B6DBC /* Main.storyboard in Resources */,
+				FD955ADA1AC56033003B6DBC /* fish.jpg in Resources */,
+				FD955AC01AC54CBC003B6DBC /* LaunchScreen.xib in Resources */,
+				FD955ABD1AC54CBC003B6DBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD955AC31AC54CBC003B6DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD955AAC1AC54CBC003B6DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD955AB81AC54CBC003B6DBC /* ViewController.swift in Sources */,
+				FD955AB61AC54CBC003B6DBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD955AC11AC54CBC003B6DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD955ACC1AC54CBC003B6DBC /* labfishAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD955AC71AC54CBC003B6DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD955AAF1AC54CBC003B6DBC /* labfishAnimation */;
+			targetProxy = FD955AC61AC54CBC003B6DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD955AB91AC54CBC003B6DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD955ABA1AC54CBC003B6DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD955ABE1AC54CBC003B6DBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD955ABF1AC54CBC003B6DBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD955ACD1AC54CBC003B6DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD955ACE1AC54CBC003B6DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD955AD01AC54CBC003B6DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = labfishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD955AD11AC54CBC003B6DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = labfishAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD955AD31AC54CBC003B6DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = labfishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labfishAnimation.app/labfishAnimation";
+			};
+			name = Debug;
+		};
+		FD955AD41AC54CBC003B6DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = labfishAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labfishAnimation.app/labfishAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD955AAB1AC54CBC003B6DBC /* Build configuration list for PBXProject "labfishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD955ACD1AC54CBC003B6DBC /* Debug */,
+				FD955ACE1AC54CBC003B6DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD955ACF1AC54CBC003B6DBC /* Build configuration list for PBXNativeTarget "labfishAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD955AD01AC54CBC003B6DBC /* Debug */,
+				FD955AD11AC54CBC003B6DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD955AD21AC54CBC003B6DBC /* Build configuration list for PBXNativeTarget "labfishAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD955AD31AC54CBC003B6DBC /* Debug */,
+				FD955AD41AC54CBC003B6DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD955AA81AC54CBC003B6DBC /* Project object */;
+}
