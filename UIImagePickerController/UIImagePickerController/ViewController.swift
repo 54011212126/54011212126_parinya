@@ -61,7 +61,6 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
                 UIImageWriteToSavedPhotosAlbum(image, self, "image: didFinishSavingWithError: contextInfo:", nil)
             }
         }
-    
     }
     func image(image: UIImage, didFinishSavingWithError error: NSErrorPointer, contextInfo: UnsafeBufferPointer<Void>){
     
